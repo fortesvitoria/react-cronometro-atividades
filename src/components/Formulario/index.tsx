@@ -44,7 +44,7 @@ function Formulario({ setTarefas }: Props) {
                     value={tarefa}
                     onChange={evento => setTarefa(evento.target.value)}
                     id="tarefa"
-                    placeholder="O que você quer estudar"
+                    placeholder="O que você quer fazer"
                     required
                 />
             </div>
