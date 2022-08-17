@@ -13,7 +13,7 @@ function Lista({tarefas, selecionaTarefa}: Props) {
 
     return (
         <aside className={style.listaTarefas}>
-            <h2>Atividade do dia</h2>
+            <h2>Tarefa do dia</h2>
             <ul>
                 {tarefas.map(item => (
                     <Item 

@@ -36,7 +36,7 @@ function Formulario({ setTarefas }: Props) {
         <form className={style.novaTarefa} onSubmit={adicionarTarefa}>
             <div className={style.inputContainer}>
                 <label htmlFor="tarefa">
-                    Adicione uma nova atividade
+                    Adicione uma nova tarefa
                 </label>
                 <input
                     type="text"
